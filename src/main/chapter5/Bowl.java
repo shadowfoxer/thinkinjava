@@ -15,4 +15,11 @@ public class Bowl {
     void f1(int marker){
         System.out.println("f1(" + marker + ")");
     }
+
+    void flex(Object... args){
+        for (Object obj :
+                args) {
+            System.out.println(obj + " ");
+        }
+    }
 }

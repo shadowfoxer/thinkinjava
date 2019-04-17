@@ -44,6 +44,11 @@ public class StaticInitialization {
 //            null
 //            null
         }
+
+        Bowl bowl = new Bowl(123);
+        bowl.flex(1,2,3,4,5,6);
+        bowl.flex("a","b","c","d");
+        bowl.flex();
 //        Bowl[] bowls1 = new Bowl[]{new Bowl(1),new Bowl(2),new Bowl(3),new Bowl(4)};
 
     }
