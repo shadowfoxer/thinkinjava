@@ -1,4 +1,4 @@
-package main.DesignPattern;
+package main.DesignPattern.Single;
 
 /**
  * 单例模式

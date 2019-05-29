@@ -59,5 +59,21 @@ public class ListFeatures {
         String[] ss = copy.toArray(new String[0]);
         System.out.println("13" + ss[0]);
 
+
+        Iterator<String> iterator = pets.iterator();
+
+        while (iterator.hasNext()){
+            String ccc = iterator.next();
+            System.out.println("*****" + '\n');
+            System.out.println(ccc);
+
+            iterator.remove();
+        }
+
+        System.out.println(pets);
+
+
+
+
     }
 }
