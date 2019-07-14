@@ -1,5 +1,8 @@
 package main.String;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * 各种类型转换
  *
@@ -18,5 +21,16 @@ public class TransUtil {
         for (int i=0;i<chars.length;i++){
             System.out.println(chars[i]);
         }
+
+        /**
+         *  注意装箱操作
+         */
+
+        Map<Character,Character> map = new HashMap<>();
+        map.put('a','a');
+        System.out.println(map.containsKey('a'));
+
+
+
     }
 }
